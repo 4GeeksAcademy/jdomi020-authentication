@@ -28,7 +28,8 @@ export const Login = () => {
         <div className="" id="background-color">
         <div className='mx-5 px-5'>
             <h4 className="m-1 p-2 border-bottom">Login</h4>
-            {/* Email Input */}
+
+            
             <div className="form-group form-row">
                 <label className="col-lg-4">Email:</label>
                 <input
@@ -38,7 +39,8 @@ export const Login = () => {
                     onChange={(e) => setEmail(e.target.value)}
                 />
             </div>
-            {/* Password Input */}
+            
+            
             <div className="form-group form-row">
                 <label className="col-lg-4">Password:</label>
                 <input
@@ -52,7 +54,7 @@ export const Login = () => {
             <div className="row">
                 <div className='col p-3'>
                     <button className="btn btn-danger" onClick={() => navigate('/signup')}>
-                        SIGN UP
+                        Sign Up
                     </button>
                 </div>
 
